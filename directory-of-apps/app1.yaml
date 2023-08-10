@@ -13,5 +13,6 @@ spec:
     repoURL: "https://github.com/tomngu2/argocd-example-apps.git"
     targetRevision: master
   syncPolicy:
+    automated: {}
     syncOptions:
       - CreateNamespace=true
